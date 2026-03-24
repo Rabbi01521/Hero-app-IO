@@ -1,19 +1,36 @@
+import { useState } from "react";
+import { FaStar } from "react-icons/fa";
+import { FiDownload } from "react-icons/fi";
+import { MdReviews } from "react-icons/md";
 import { useLoaderData, useParams } from "react-router";
+
+import { Bar, BarChart, CartesianGrid, Tooltip, XAxis, YAxis } from "recharts";
 
 const AppDetails = () => {
   const appsData = useLoaderData();
   const { id } = useParams();
+  const [installed, setInstalled] = useState(false);
 
   const appId = parseInt(id);
   const appDetails = appsData.find((app) => app.id === appId);
 
   console.log(id, appsData);
   // console.log(appsData)
+
+  const handleInstall = (id) => {
+    // Implement installation logic here
+    console.log(id)
+    setInstalled(true);
+    alert(`Installing ${appDetails.title}...`);
+
+  }
+
+
   return (
     <div className="py-16">
       {appDetails && (
         <div className="max-w-[1200px] mx-auto">
-          <div className="card lg:card-side p-4">
+          <div className="card lg:card-side p-4 mb-10">
             <figure>
               <img
                 src={appDetails.image}
@@ -22,82 +39,90 @@ const AppDetails = () => {
               />
             </figure>
             <div className="card-body">
-              <div>
-                <h2 className="card-title">{appDetails.title}</h2>
-                <p className="">Developed By: {appDetails.companyName}</p>
+              <div className="space-y-3 border-b-2 border-[#632ee3] pb-5">
+                <h2 className="card-title text-[#632ee3] text-4xl my-4">
+                  {appDetails.title}
+                </h2>
+                <p className="font-medium text-xl">
+                  Developed By:{" "}
+                  <span className="text-[#632ee3]">
+                    {appDetails.companyName}
+                  </span>
+                </p>
               </div>
-              <div>
-                <div className="stats">
-                  <div className="stat">
+              <div className="">
+                <div className="stats grid lg:grid-cols-3 md:grid-cols-2 gap-5">
+                  <div className="stat stats-horizontal">
                     <div className="stat-figure text-secondary">
-                      <svg
-                        xmlns="http://www.w3.org/2000/svg"
-                        fill="none"
-                        viewBox="0 0 24 24"
-                        className="inline-block h-8 w-8 stroke-current"
-                      >
-                        <path
-                          strokeLinecap="round"
-                          strokeLinejoin="round"
-                          strokeWidth="2"
-                          d="M13 16h-1v-4h-1m1-4h.01M21 12a9 9 0 11-18 0 9 9 0 0118 0z"
-                        ></path>
-                      </svg>
+                      <FiDownload className="text-4xl text-[#632ee3]" />
                     </div>
                     <div className="stat-title">Downloads</div>
-                    <div className="stat-value">31K</div>
-                    <div className="stat-desc">Jan 1st - Feb 1st</div>
+                    <div className="stat-value">{appDetails.downloads}</div>
                   </div>
 
                   <div className="stat">
                     <div className="stat-figure text-secondary">
-                      <svg
-                        xmlns="http://www.w3.org/2000/svg"
-                        fill="none"
-                        viewBox="0 0 24 24"
-                        className="inline-block h-8 w-8 stroke-current"
-                      >
-                        <path
-                          strokeLinecap="round"
-                          strokeLinejoin="round"
-                          strokeWidth="2"
-                          d="M12 6V4m0 2a2 2 0 100 4m0-4a2 2 0 110 4m-6 8a2 2 0 100-4m0 4a2 2 0 110-4m0 4v2m0-6V4m6 6v10m6-2a2 2 0 100-4m0 4a2 2 0 110-4m0 4v2m0-6V4"
-                        ></path>
-                      </svg>
+                      <FaStar className="text-4xl text-[#632ee3]" />
                     </div>
-                    <div className="stat-title">New Users</div>
-                    <div className="stat-value">4,200</div>
-                    <div className="stat-desc">↗︎ 400 (22%)</div>
+                    <div className="stat-title">Avarage Ratings</div>
+                    <div className="stat-value">{appDetails.rating}</div>
                   </div>
 
                   <div className="stat">
                     <div className="stat-figure text-secondary">
-                      <svg
-                        xmlns="http://www.w3.org/2000/svg"
-                        fill="none"
-                        viewBox="0 0 24 24"
-                        className="inline-block h-8 w-8 stroke-current"
-                      >
-                        <path
-                          strokeLinecap="round"
-                          strokeLinejoin="round"
-                          strokeWidth="2"
-                          d="M5 8h14M5 8a2 2 0 110-4h14a2 2 0 110 4M5 8v10a2 2 0 002 2h10a2 2 0 002-2V8m-9 4h4"
-                        ></path>
-                      </svg>
+                      <MdReviews className="text-4xl text-[#632ee3]" />
                     </div>
-                    <div className="stat-title">New Registers</div>
-                    <div className="stat-value">1,200</div>
-                    <div className="stat-desc">↘︎ 90 (14%)</div>
+                    <div className="stat-title">Total Reviews</div>
+                    <div className="stat-value">{appDetails.reviews}</div>
                   </div>
                 </div>
               </div>
               <div className="card-actions justify-start mt-5">
-                <button className="btn btn-primary">
-                  Install Now ( {appDetails.size}MB )
+                <button onClick={() => handleInstall(appDetails.id)} className={`btn btn-primary ${installed ? "btn-disabled" : ""} btn btn-xs sm:btn-sm md:btn-md lg:btn-lg xl:btn-xl bg-[#632ee3] border-none hover:bg-[#632ee3]/90 text-white`}>
+                  {installed ? "Installed" : "Install Now"} ( {appDetails.size}MB )
                 </button>
               </div>
             </div>
+          </div>
+          <BarChart
+            layout="vertical"
+            style={{
+              width: "100%",
+              maxHeight: "60vh",
+              aspectRatio: 1.618,
+            }}
+            responsive
+            data={[...appDetails.ratings].reverse()}
+            margin={{ bottom: 20 }}
+          >
+            <CartesianGrid strokeDasharray="5 5" />
+            <Tooltip shared={true} wrapperStyle={{ backgroundColor: "#ccc" }} />
+            <XAxis
+              type="number"
+              dataKey="count"
+              height={50}
+              stroke="#632ee3"
+              label={{ value: "Count", position: "insideBottomRight" }}
+            />
+            <YAxis
+              type="category"
+              dataKey="name"
+              width="auto"
+              stroke="#632ee3"
+              label={{
+                value: "Rating",
+                angle: -90,
+                position: "insideTopLeft",
+                textAnchor: "end",
+              }}
+            />
+            <Bar dataKey="count" fill="#632ee3" barSize={30} />
+          </BarChart>
+          <div className="md:w-[90%] mx-auto">
+            <h2 className="text-3xl font-bold text-[#632ee3] my-5">
+              Description
+            </h2>
+            <p className="text-lg font-medium">{appDetails.description}</p>
           </div>
         </div>
       )}
