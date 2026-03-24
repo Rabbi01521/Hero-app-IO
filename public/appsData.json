@@ -1,0 +1,382 @@
+[
+  {
+    "image": "https://i.ibb.co.com/KzRxcM2S/icon-005.webp",
+    "title": "Forest: Focus for Productivity",
+    "rating": 4.9,
+    "companyName": "productive.io",
+    "id": 1,
+    "description": "Forest: Focus for Productivity is designed to help users stay away from distractions and build deep focus habits in a simple but motivating way. The core idea is powerful: when you want to focus, you plant a virtual tree, and while you stay away from distracting apps, the tree continues to grow. This creates a visual and emotional connection to your productivity, making focus feel rewarding instead of restrictive. The design is calm, clean, and minimal, which supports concentration instead of adding more noise to your day.\n\nThe app is especially useful for students, remote workers, writers, developers, and office professionals who need dedicated blocks of uninterrupted time. Users can set custom focus sessions, track how long they stayed productive, and slowly build a forest that represents their progress. This makes it easier to stay disciplined over time, because every completed session feels like a small achievement. Instead of simply counting minutes, the app turns focus into something visible and satisfying.\n\nA major strength of the app is its combination of habit-building and gentle motivation. It offers progress tracking, productivity history, and daily or weekly insights that help users understand how they spend their attention. This reflection can be extremely valuable for people who often struggle with procrastination or digital distractions. The visual reward system makes the process feel lighter and more engaging than a standard timer app.\n\nOverall, Forest: Focus for Productivity acts like a quiet accountability partner that encourages consistency every day. It helps users create better work routines, reduce screen distractions, and feel more intentional about how they use their time. With its simple concept and effective execution, it turns focused work into a habit that feels meaningful and enjoyable.",
+    "size": 258,
+    "reviews": "17K",
+    "ratingAvg": 4.9,
+    "downloads": "7M",
+    "ratings": [
+      { "name": "1 star", "count": 850 },
+      { "name": "2 star", "count": 850 },
+      { "name": "3 star", "count": 1700 },
+      { "name": "4 star", "count": 3400 },
+      { "name": "5 star", "count": 10200 }
+    ]
+  },
+  {
+    "image": "https://i.ibb.co.com/DfcmK7NG/notion02.webp",
+    "title": "Notion: Notes, Tasks, AI",
+    "rating": 4.8,
+    "companyName": "Notion Labs, Inc.",
+    "id": 2,
+    "description": "Notion: Notes, Tasks, AI is a flexible productivity workspace built for users who want notes, task management, and planning tools all in one place. It allows users to create pages, databases, to-do lists, schedules, and collaborative documents without needing several separate apps. The experience feels modern and highly customizable, which makes it useful for students, teams, freelancers, and professionals alike. Instead of forcing one rigid workflow, the app gives users the freedom to build a system that matches how they think and work.\n\nOne of the strongest parts of the app is its adaptability. A single workspace can be used for note-taking, project planning, content calendars, meeting minutes, study management, or personal habit tracking. Users can organize information through tables, boards, checklists, and linked pages, which helps even large amounts of content remain understandable. This flexibility makes the app feel more like a toolkit than a standard note app.\n\nThe addition of AI-powered assistance improves the overall experience by helping users summarize content, brainstorm ideas, rewrite text, and speed up repetitive writing tasks. That makes the app especially valuable for people managing both information and output in the same space. Instead of jumping between multiple tools, users can think, plan, and produce from one central environment.\n\nOverall, Notion is ideal for anyone who wants a connected digital workspace that can grow with their needs. It is powerful without feeling impossible to use, and it rewards users who like organization and clarity. Whether someone is planning a business, managing study notes, or keeping track of daily life, this app provides a structured but creative way to stay productive.",
+    "size": 186,
+    "reviews": "28K",
+    "ratingAvg": 4.8,
+    "downloads": "10M",
+    "ratings": [
+      { "name": "1 star", "count": 900 },
+      { "name": "2 star", "count": 1100 },
+      { "name": "3 star", "count": 2200 },
+      { "name": "4 star", "count": 5200 },
+      { "name": "5 star", "count": 18600 }
+    ]
+  },
+  {
+    "image": "https://i.ibb.co.com/cSwLdP5x/demo-app-3.webp",
+    "title": "Todoist: To-Do List & Planner",
+    "rating": 4.8,
+    "companyName": "Doist Inc.",
+    "id": 3,
+    "description": "Todoist: To-Do List & Planner is a task management app built to help users capture responsibilities quickly and turn them into clear action plans. The interface is simple, clean, and intentionally distraction-free, which makes it easy to add tasks the moment they come to mind. Users can organize work by projects, priorities, due dates, and labels, allowing both personal and professional planning in one place. This simplicity is one of the reasons the app feels approachable from the first use.\n\nThe app is especially effective for people who want to reduce mental clutter. Instead of trying to remember every small thing, users can rely on structured lists, recurring tasks, and reminders to keep their day on track. Whether the goal is managing assignments, tracking office work, planning content, or handling home routines, the system feels light but powerful. It supports both quick task entry and deeper organization when needed.\n\nAnother standout feature is the app’s long-term usability. Productivity tools often become messy over time, but Todoist keeps things manageable with good filtering and clean task views. Productivity trends, completion tracking, and streak-like motivation features help users stay consistent. This makes it easier to build discipline without turning the app into a stressful experience.\n\nOverall, Todoist works well for people who want a reliable daily planner that feels polished and practical. It helps break large responsibilities into smaller steps and keeps priorities visible throughout the day. For anyone trying to become more organized without dealing with a complicated system, this app offers an excellent balance of simplicity and control.",
+    "size": 39,
+    "reviews": "251K",
+    "ratingAvg": 4.8,
+    "downloads": "10M",
+    "ratings": [
+      { "name": "1 star", "count": 3200 },
+      { "name": "2 star", "count": 4100 },
+      { "name": "3 star", "count": 8300 },
+      { "name": "4 star", "count": 50200 },
+      { "name": "5 star", "count": 185200 }
+    ]
+  },
+  {
+    "image": "https://i.ibb.co.com/WNvRT8rD/Trello03.png",
+    "title": "Trello: Manage Team Projects",
+    "rating": 4.7,
+    "companyName": "Atlassian",
+    "id": 4,
+    "description": "Trello: Manage Team Projects is a visual collaboration app that helps users organize work using boards, lists, and cards. Its drag-and-drop structure makes project progress easy to understand at a glance, which is especially useful for teams handling multiple tasks at once. From content planning to software development and event coordination, the app supports a wide range of workflows. The layout is visual enough to feel intuitive, even for users who are not deeply technical.\n\nEach card can hold checklists, deadlines, comments, files, and assignments, allowing detailed task tracking without cluttering the whole project view. This means a team can see the overall status of work while still keeping all task-specific information in one place. For individual users, the same system works well for study plans, personal goals, or freelance client management. That flexibility is a big reason why the platform remains so widely useful.\n\nThe app also supports teamwork in a natural way. Members can comment on tasks, mention each other, receive updates, and follow progress in real time. Instead of long message threads and scattered documents, work stays attached to the exact task where it belongs. This improves communication and reduces confusion around who is doing what and when.\n\nOverall, Trello is a strong choice for people who want a visual and collaborative way to manage tasks. It turns project planning into something more transparent and easier to maintain. Whether used by a small team or a single organized individual, it brings clarity to work that might otherwise feel scattered and hard to control.",
+    "size": 72,
+    "reviews": "119K",
+    "ratingAvg": 4.7,
+    "downloads": "10M",
+    "ratings": [
+      { "name": "1 star", "count": 2800 },
+      { "name": "2 star", "count": 3600 },
+      { "name": "3 star", "count": 7200 },
+      { "name": "4 star", "count": 28600 },
+      { "name": "5 star", "count": 76800 }
+    ]
+  },
+  {
+    "image": "https://i.ibb.co.com/PZxkb4ty/Evernote04.png",
+    "title": "Evernote - Note Organizer",
+    "rating": 4.6,
+    "companyName": "Evernote Corporation",
+    "id": 5,
+    "description": "Evernote - Note Organizer is a digital note-taking app built for people who need a dependable space to capture ideas, documents, reminders, and research. It allows users to create rich notes, scan paper content, attach files, and organize information into notebooks and tags. The app is particularly useful for users who collect a lot of information and want it to remain searchable later. Instead of letting ideas disappear into random files and chats, it gives them a structured home.\n\nOne of the biggest strengths of Evernote is how well it supports both quick capture and long-term storage. Users can jot down short ideas, save web content, scan receipts, or build more detailed notes for class, work, or projects. This makes it suitable for a wide range of daily needs. The app feels especially valuable for people who often work across different topics and want one reliable place to store everything.\n\nIts search and organization features are also a major advantage. Notes can be grouped, tagged, filtered, and reviewed later without too much friction. For students, researchers, and professionals, that means useful information is less likely to get lost. The app becomes more valuable over time as more notes accumulate into a searchable personal knowledge system.\n\nOverall, Evernote is best for users who take information seriously and want a more thoughtful way to manage it. It turns scattered notes and documents into an organized archive that stays easy to access. With strong capture tools and dependable organization, it remains a solid choice for digital productivity and knowledge management.",
+    "size": 94,
+    "reviews": "182K",
+    "ratingAvg": 4.6,
+    "downloads": "10M",
+    "ratings": [
+      { "name": "1 star", "count": 4800 },
+      { "name": "2 star", "count": 6200 },
+      { "name": "3 star", "count": 12800 },
+      { "name": "4 star", "count": 43100 },
+      { "name": "5 star", "count": 115100 }
+    ]
+  },
+  {
+    "image": "https://i.ibb.co.com/5Wrgvvp1/microsoft-to-do-2017-08-14.webp",
+    "title": "Microsoft To Do: Lists & Tasks",
+    "rating": 4.7,
+    "companyName": "Microsoft Corporation",
+    "id": 6,
+    "description": "Microsoft To Do: Lists & Tasks is a clean and efficient planning app built for people who want a simple daily system for managing responsibilities. It lets users create tasks, add reminders, set deadlines, and organize work into separate lists for different parts of life. The design is minimal and calm, which helps users focus on what matters rather than feeling buried under too many features. This makes the app especially attractive for people who prefer clarity over complexity.\n\nThe app works well for both quick daily planning and longer-term organization. Users can build grocery lists, work lists, study plans, and recurring routines in the same app without everything blending together. Features like starred tasks and smart daily suggestions help users decide what to focus on right now. That daily guidance makes the app feel practical rather than passive.\n\nIntegration with the Microsoft ecosystem also adds value for users already using Outlook and other Microsoft tools. Tasks can fit more naturally into existing work habits, which helps reduce duplication and friction. Even without deep integrations, the app remains easy to use because the core experience is so straightforward and reliable.\n\nOverall, Microsoft To Do is a great option for users who want a light, polished, and consistent planning app. It supports productivity without trying to do too much at once. For students, office workers, and anyone trying to stay more organized day by day, it offers a simple path toward better routine management.",
+    "size": 27,
+    "reviews": "354K",
+    "ratingAvg": 4.7,
+    "downloads": "50M",
+    "ratings": [
+      { "name": "1 star", "count": 6200 },
+      { "name": "2 star", "count": 8500 },
+      { "name": "3 star", "count": 15700 },
+      { "name": "4 star", "count": 81600 },
+      { "name": "5 star", "count": 242000 }
+    ]
+  },
+  {
+    "image": "https://i.ibb.co.com/rK6SNJzJ/Habitica-06.webp",
+    "title": "Habitica: Gamify Your Tasks",
+    "rating": 4.6,
+    "companyName": "HabitRPG, Inc.",
+    "id": 7,
+    "description": "Habitica: Gamify Your Tasks takes productivity and turns it into a game-like experience that feels fun, rewarding, and strangely motivating. Instead of simply listing tasks, the app gives users a character and progress system where completing responsibilities helps them level up and earn rewards. This makes the process of building discipline feel more playful, which can be especially helpful for users who struggle with routine motivation. The result is a productivity system that feels different from traditional planners.\n\nThe app allows users to track habits, daily responsibilities, and one-time to-dos in separate categories. This structure helps users distinguish between routines they want to build and tasks they simply need to finish. Over time, the game-like feedback loop gives a stronger sense of progress, making small wins feel more visible and satisfying. That is often enough to keep people engaged longer than they would be with a plain checklist.\n\nHabitica also adds social and community features, which make accountability stronger. Users can join groups, go on quests, and stay motivated by a shared sense of progress. This social layer helps people who do better when productivity feels collaborative rather than isolated. It also adds a fun twist that keeps the app memorable.\n\nOverall, Habitica is ideal for users who want structure but get bored by standard productivity tools. It brings creativity and motivation into the process of staying organized. For anyone who wants to build better habits while keeping the experience enjoyable, this app offers a smart and refreshing approach.",
+    "size": 34,
+    "reviews": "29K",
+    "ratingAvg": 4.6,
+    "downloads": "1M",
+    "ratings": [
+      { "name": "1 star", "count": 700 },
+      { "name": "2 star", "count": 950 },
+      { "name": "3 star", "count": 2100 },
+      { "name": "4 star", "count": 7600 },
+      { "name": "5 star", "count": 17650 }
+    ]
+  },
+  {
+    "image": "https://i.ibb.co.com/0VX3VK1h/Tick-Tick-To-Do-List-Calendar07.webp",
+    "title": "TickTick: ToDo List & Calendar",
+    "rating": 4.8,
+    "companyName": "Appest Inc.",
+    "id": 8,
+    "description": "TickTick: ToDo List & Calendar is a polished productivity app that combines task management, habit tracking, reminders, and calendar planning in one smooth experience. It is built for users who want a full-featured planner without losing simplicity. The interface is modern and well-organized, giving quick access to lists, due dates, and schedule views without making the app feel crowded. That balance between power and usability is one of its biggest strengths.\n\nUsers can create tasks with deadlines, subtasks, tags, recurring rules, and time-based reminders. This helps the app support both small daily errands and larger ongoing projects. The calendar integration is especially useful because it helps users see what needs to happen and when it fits into the day. That visual planning layer makes the app feel more actionable than a simple task list.\n\nAnother strong feature is habit tracking, which adds more long-term value beyond just daily task completion. Users can monitor routines, review productivity trends, and slowly improve consistency. Because these features are combined in one app, users do not need to switch between separate tools for lists, schedules, and habits. That convenience saves both time and attention.\n\nOverall, TickTick is a powerful all-in-one productivity companion that works well for students, professionals, and goal-driven users. It supports planning with enough detail to stay serious while remaining easy to use every day. For people who want one reliable app to organize both time and tasks, it is an excellent choice.",
+    "size": 45,
+    "reviews": "153K",
+    "ratingAvg": 4.8,
+    "downloads": "5M",
+    "ratings": [
+      { "name": "1 star", "count": 1900 },
+      { "name": "2 star", "count": 2400 },
+      { "name": "3 star", "count": 5400 },
+      { "name": "4 star", "count": 34100 },
+      { "name": "5 star", "count": 109200 }
+    ]
+  },
+  {
+    "image": "https://i.ibb.co.com/Kpcp2ZnF/Google-Keep-Notes-and-Lists08.png",
+    "title": "Google Keep - Notes and Lists",
+    "rating": 4.7,
+    "companyName": "Google LLC",
+    "id": 9,
+    "description": "Google Keep - Notes and Lists is a lightweight note-taking app designed for speed, simplicity, and everyday convenience. It allows users to capture thoughts, make checklists, save reminders, and color-code notes in seconds. The interface is intentionally straightforward, making it a strong option for people who do not want a complicated productivity system. It works especially well for quick daily use where fast access matters more than deep customization.\n\nUsers can create text notes, voice notes, drawing notes, and checklist-based reminders depending on what they need in the moment. That flexibility makes the app useful for shopping lists, class reminders, daily ideas, and short planning sessions. Sync support across devices adds even more convenience because users can capture something on mobile and check it later elsewhere without extra steps.\n\nThe biggest appeal of Google Keep is how frictionless it feels. There is almost no learning curve, and that matters a lot for note apps because people want to write things down immediately. Instead of forcing heavy structure, the app focuses on fast capture and easy review. For many users, that is exactly what makes it valuable.\n\nOverall, Google Keep is perfect for users who want a practical and accessible note tool they can trust every day. It is not trying to be a giant workspace platform. Instead, it succeeds by being fast, clear, and useful for the small but important things people need to remember and organize daily.",
+    "size": 19,
+    "reviews": "1M",
+    "ratingAvg": 4.7,
+    "downloads": "1B",
+    "ratings": [
+      { "name": "1 star", "count": 18000 },
+      { "name": "2 star", "count": 22000 },
+      { "name": "3 star", "count": 49000 },
+      { "name": "4 star", "count": 251000 },
+      { "name": "5 star", "count": 660000 }
+    ]
+  },
+  {
+    "image": "https://i.ibb.co.com/3mrHCTDK/Asana-Workin-One-Place09.png",
+    "title": "Asana: Work in One Place",
+    "rating": 4.6,
+    "companyName": "Asana, Inc.",
+    "id": 10,
+    "description": "Asana: Work in One Place is a work management platform designed to help teams organize tasks, projects, and communication more clearly. It gives users a structured way to assign responsibilities, track progress, and manage deadlines from one central place. The app is especially useful for collaborative environments where multiple people are involved in the same workflow. Instead of relying on scattered messages and separate tools, teams can keep work connected and visible.\n\nProjects can be viewed as lists, boards, or timelines depending on the style that best fits the team’s process. Each task can include assignees, deadlines, attachments, and progress updates, which helps reduce confusion and improve follow-through. This makes the app suitable for marketing teams, software projects, operations, student groups, and many other use cases. It provides both overview and detail without losing structure.\n\nOne of the biggest benefits is improved accountability. Everyone can see what is assigned, what is completed, and what is delayed. That level of transparency helps reduce duplicated effort and keeps momentum moving forward. It also makes team planning feel more intentional and less chaotic.\n\nOverall, Asana is ideal for users and organizations that want a more organized and collaborative way to work. It turns tasks into visible progress and helps teams stay aligned around shared goals. For project-heavy environments, it provides a dependable structure that supports both planning and execution.",
+    "size": 32,
+    "reviews": "44K",
+    "ratingAvg": 4.6,
+    "downloads": "5M",
+    "ratings": [
+      { "name": "1 star", "count": 1300 },
+      { "name": "2 star", "count": 1700 },
+      { "name": "3 star", "count": 3900 },
+      { "name": "4 star", "count": 12200 },
+      { "name": "5 star", "count": 24900 }
+    ]
+  },
+  {
+    "image": "https://i.ibb.co.com/nX1gJBd/Any-do-Todolist-Calendar.webp",
+    "title": "Any.do - To do list & Calendar",
+    "rating": 4.5,
+    "companyName": "Any.DO",
+    "id": 11,
+    "description": "Any.do - To do list & Calendar is a productivity app that combines task management, event scheduling, and reminders into a simple and attractive interface. It is built for users who want one place to manage daily responsibilities without overcomplicating the process. The layout feels polished and modern, which helps routine planning feel lighter and more enjoyable. That visual simplicity is one of the reasons the app remains easy to return to every day.\n\nUsers can add tasks, organize them by category, assign due dates, and connect plans to a calendar view. This makes it easier to move between knowing what needs to be done and understanding when it should happen. The app is especially useful for people managing busy lives where appointments, errands, and priorities all need to stay visible in one place. Instead of splitting planning between multiple tools, users get a connected experience.\n\nThe app also supports reminders, recurring items, and collaborative lists, which adds flexibility for families and shared tasks. These features make it practical for both personal productivity and small-scale teamwork. The experience remains approachable even with those added capabilities, which is important for long-term use.\n\nOverall, Any.do is a solid choice for users who want a planner that looks clean, works smoothly, and covers both tasks and schedules. It supports organization without creating unnecessary complexity. For people trying to build a more dependable daily routine, it offers a balanced and user-friendly solution.",
+    "size": 31,
+    "reviews": "457K",
+    "ratingAvg": 4.5,
+    "downloads": "10M",
+    "ratings": [
+      { "name": "1 star", "count": 9200 },
+      { "name": "2 star", "count": 11800 },
+      { "name": "3 star", "count": 26100 },
+      { "name": "4 star", "count": 108000 },
+      { "name": "5 star", "count": 301900 }
+    ]
+  },
+  {
+    "image": "https://i.ibb.co.com/JWrSfJND/Pomodoro-Timer-Lite.png",
+    "title": "Pomodoro Timer Lite",
+    "rating": 4.4,
+    "companyName": "Focus Labs",
+    "id": 12,
+    "description": "Pomodoro Timer Lite is a focus timer app inspired by the Pomodoro technique, helping users work in short, intentional bursts followed by planned breaks. The concept is simple, but when executed well, it can dramatically improve concentration and reduce burnout. This app is designed for people who struggle with procrastination, distraction, or mental fatigue during longer tasks. By turning work into manageable sessions, it makes starting feel easier and finishing feel more realistic.\n\nUsers can customize work intervals, break lengths, and session counts depending on their own routine. This flexibility means the app works equally well for study sessions, office work, coding, writing, or exam preparation. The timer interface stays clean and calm, which helps users remain mentally present instead of feeling interrupted by overly busy visuals. That simplicity supports the entire purpose of the app.\n\nThe app also includes session history and productivity summaries, allowing users to look back and understand how their focus time is improving. This is useful because it transforms productivity into something measurable. Over time, users can identify their most effective hours and see whether they are becoming more consistent.\n\nOverall, Pomodoro Timer Lite is ideal for users who want a focused, no-nonsense tool for deep work. It supports better work rhythms and helps reduce the pressure of facing large tasks all at once. For anyone who wants to improve concentration in a realistic and structured way, this app provides a strong daily companion.",
+    "size": 18,
+    "reviews": "12K",
+    "ratingAvg": 4.4,
+    "downloads": "1M",
+    "ratings": [
+      { "name": "1 star", "count": 350 },
+      { "name": "2 star", "count": 540 },
+      { "name": "3 star", "count": 1160 },
+      { "name": "4 star", "count": 3720 },
+      { "name": "5 star", "count": 6230 }
+    ]
+  },
+  {
+    "image": "https://i.ibb.co.com/35CrmjXD/Slack.png",
+    "title": "Slack",
+    "rating": 4.4,
+    "companyName": "Slack Technologies Inc.",
+    "id": 13,
+    "description": "Slack is a team communication app that helps people collaborate through organized channels, direct messages, and shared workspaces. It is widely used for workplace communication because it keeps conversations grouped by topic, team, or project rather than mixing everything into one stream. This structure makes it easier to follow discussions and return to important information later. For teams handling active workflows, that organization becomes extremely valuable.\n\nThe app supports file sharing, message search, integrations, and quick communication across departments or project groups. Instead of relying only on email, teams can discuss updates in real time and keep context attached to the right channel. That improves both speed and clarity. For many users, Slack becomes the daily communication center for their work life.\n\nOne of its biggest strengths is how well it supports ongoing collaboration. Team members can ask questions, give updates, share documents, and keep everyone aligned without jumping across too many tools. This creates a smoother work rhythm, especially for remote teams or distributed organizations where communication needs to stay clear and consistent.\n\nOverall, Slack is best for teams and professionals who need structured, searchable, and real-time communication. It helps replace scattered conversations with more focused collaboration. For modern workplaces trying to improve coordination and visibility, it remains one of the most recognizable and useful communication platforms available.",
+    "size": 86,
+    "reviews": "132K",
+    "ratingAvg": 4.4,
+    "downloads": "10M",
+    "ratings": [
+      { "name": "1 star", "count": 4100 },
+      { "name": "2 star", "count": 5700 },
+      { "name": "3 star", "count": 12400 },
+      { "name": "4 star", "count": 39200 },
+      { "name": "5 star", "count": 70600 }
+    ]
+  },
+  {
+    "image": "https://i.ibb.co.com/tM62xVn8/Click-Up-Productivity-Platform.png",
+    "title": "ClickUp: Productivity Platform",
+    "rating": 4.7,
+    "companyName": "ClickUp",
+    "id": 14,
+    "description": "ClickUp: Productivity Platform is an all-in-one work management app designed to combine tasks, documents, goals, and communication in a single workspace. It is built for users who want to reduce app-switching and bring different parts of their workflow together. The platform is highly feature-rich, which makes it especially attractive for teams, startups, and advanced individual users who want more than just a simple task list. It aims to be a complete operating system for productivity.\n\nUsers can create projects, assign tasks, build dashboards, manage docs, and track progress using multiple views. This flexibility helps the app adapt to different work styles rather than forcing one structure on everyone. Teams can use it for software development, content planning, operations, client management, and more. The breadth of tools makes it powerful for organizations that want everything connected.\n\nA major benefit of ClickUp is visibility. Managers and team members can see task status, deadlines, and goals from a higher level while still diving into detailed execution where needed. That helps work feel more coordinated and measurable. Even though the platform is large, users who invest time in setup often gain a highly customized system.\n\nOverall, ClickUp is ideal for people who want a serious productivity environment with room to scale. It provides structure, flexibility, and broad capability in one platform. For teams and ambitious users trying to centralize their work, it offers a strong and modern solution.",
+    "size": 83,
+    "reviews": "21K",
+    "ratingAvg": 4.7,
+    "downloads": "1M",
+    "ratings": [
+      { "name": "1 star", "count": 540 },
+      { "name": "2 star", "count": 710 },
+      { "name": "3 star", "count": 1510 },
+      { "name": "4 star", "count": 5980 },
+      { "name": "5 star", "count": 12260 }
+    ]
+  },
+  {
+    "image": "https://i.ibb.co.com/SkW4p4M/canva.png",
+    "title": "Canva: Design, Photo & Video",
+    "rating": 4.8,
+    "companyName": "Canva",
+    "id": 15,
+    "description": "Canva: Design, Photo & Video is a creative productivity app that helps users design visual content quickly without needing advanced graphic design skills. It provides templates, drag-and-drop editing, text tools, image controls, and video options in a clean interface that feels approachable even for beginners. This makes it especially useful for students, social media managers, small business owners, and content creators. The app turns design from something intimidating into something much more accessible.\n\nUsers can create social posts, posters, presentations, resumes, invitations, and marketing content using ready-made layouts or their own ideas. The huge range of templates and elements saves time while still allowing room for customization. This balance is a big reason why the app has become so popular for quick but polished visual work. It helps users create professional-looking content without a long learning curve.\n\nAnother major strength is convenience. Instead of opening heavy software on desktop, users can begin and finish designs from mobile or tablet when needed. Collaboration and sharing features also make team-based work easier. Whether someone is building a classroom presentation or a branded ad design, the app keeps the process smooth and manageable.\n\nOverall, Canva is ideal for people who need visual content regularly and want a faster way to create it. It combines usability, flexibility, and design support in a way that feels genuinely practical. For modern content creation, it serves as both a creative tool and a productivity booster.",
+    "size": 31,
+    "reviews": "18M",
+    "ratingAvg": 4.8,
+    "downloads": "100M",
+    "ratings": [
+      { "name": "1 star", "count": 95000 },
+      { "name": "2 star", "count": 121000 },
+      { "name": "3 star", "count": 248000 },
+      { "name": "4 star", "count": 2040000 },
+      { "name": "5 star", "count": 15496000 }
+    ]
+  },
+  {
+    "image": "https://i.ibb.co.com/C5nzW2df/Water-Do.webp",
+    "title": "WaterDo: To Do List & Schedule",
+    "rating": 4.5,
+    "companyName": "Seekrtech",
+    "id": 16,
+    "description": "WaterDo: To Do List & Schedule is a productivity app that presents task management in a more playful and visually engaging way. Instead of showing tasks as plain lines in a list, it turns them into floating bubbles that users can pop once they are complete. This simple change makes the experience feel more interactive and satisfying, which can help users stay more engaged with daily planning. The app stands out because it makes productivity feel less dry and more rewarding.\n\nUnderneath the playful design, the app still provides solid planning tools. Users can organize tasks, assign due dates, set reminders, and sort items based on urgency or category. This makes the app suitable for both casual users and people who want daily structure. It blends visual charm with practical function, which is a pretty smart combination.\n\nThe app also encourages focus and reflection by helping users prioritize what matters most each day. Instead of drowning users in endless lists, it pushes them toward a more intentional view of their schedule. That can be especially helpful for users who often feel overwhelmed by too many responsibilities at once. The visual interface makes it easier to approach planning with less stress.\n\nOverall, WaterDo is a great option for users who want a fresh and motivating task manager with real productivity value. It combines creativity and structure in a way that feels modern and memorable. For anyone who wants planning to feel lighter without losing effectiveness, this app offers a unique and useful experience.",
+    "size": 202,
+    "reviews": "49K",
+    "ratingAvg": 4.5,
+    "downloads": "4M",
+    "ratings": [
+      { "name": "1 star", "count": 1300 },
+      { "name": "2 star", "count": 1800 },
+      { "name": "3 star", "count": 4200 },
+      { "name": "4 star", "count": 14600 },
+      { "name": "5 star", "count": 27100 }
+    ]
+  },
+  {
+    "image": "https://i.ibb.co.com/8495Bf3Y/demo-app-4.webp",
+    "title": "Focus To-Do: Pomodoro & Tasks",
+    "rating": 4.8,
+    "companyName": "Pomodoro Timer & To Do List",
+    "id": 17,
+    "description": "Focus To-Do: Pomodoro & Tasks combines a task manager with the Pomodoro technique so users can plan work and execute it in focused sessions from one app. This makes it especially useful for people who not only want to know what they need to do, but also want help actually sitting down and doing it. The interface is practical and straightforward, which keeps users aligned with their goals instead of distracted by extra noise. It is a very productivity-focused tool in the clearest sense.\n\nUsers can create task lists, assign work sessions to each task, and monitor how much focused time is spent on different responsibilities. This connection between tasks and real effort is valuable because it helps users estimate work more realistically. Over time, the app also gives a clearer picture of where attention is going. That makes it useful not only for completing work, but also for improving planning accuracy.\n\nThe built-in timer system helps users maintain rhythm and avoid mental burnout. By breaking work into focused intervals with short breaks, the app supports sustained concentration in a way that feels manageable. This is helpful for students preparing for exams, developers writing code, writers, freelancers, and office workers dealing with large workloads.\n\nOverall, Focus To-Do is ideal for users who want a more disciplined and measurable productivity method. It helps bridge the gap between planning and action. For people trying to improve both focus and consistency, it offers a strong combination of structure, motivation, and practical time control.",
+    "size": 45,
+    "reviews": "231K",
+    "ratingAvg": 4.8,
+    "downloads": "10M",
+    "ratings": [
+      { "name": "1 star", "count": 2600 },
+      { "name": "2 star", "count": 3200 },
+      { "name": "3 star", "count": 7400 },
+      { "name": "4 star", "count": 42100 },
+      { "name": "5 star", "count": 175700 }
+    ]
+  },
+  {
+    "image": "https://i.ibb.co.com/xqD5mHzF/Google-Calendar.png",
+    "title": "Google Calendar",
+    "rating": 4.6,
+    "companyName": "Google LLC",
+    "id": 18,
+    "description": "Google Calendar is a scheduling app designed to help users manage time more clearly through events, reminders, and shared calendars. It gives a visual overview of daily, weekly, and monthly schedules, which makes planning easier and more intentional. The interface is clean and familiar, allowing users to quickly understand where their time is going. For people with busy routines, that visibility can make a huge difference.\n\nUsers can create appointments, receive reminders, schedule recurring events, and organize different parts of life into separate calendar layers. This makes it useful for students managing classes, professionals tracking meetings, and families planning shared activities. The flexibility to separate personal, academic, and work events keeps the calendar from feeling messy. It also supports collaboration well when multiple people need visibility.\n\nThe app becomes especially powerful when tied into other Google services and mobile workflows. Meeting details, invitations, locations, and reminders all fit together naturally, which saves time and reduces planning friction. Even on its own, the calendar remains valuable because it turns time into something visible and easier to manage.\n\nOverall, Google Calendar is a foundational productivity app for anyone trying to stay organized in a time-based way. It supports both simple scheduling and complex routine management without becoming hard to use. For users who want more control over their day, it remains one of the most practical tools available.",
+    "size": 29,
+    "reviews": "2M",
+    "ratingAvg": 4.6,
+    "downloads": "5B",
+    "ratings": [
+      { "name": "1 star", "count": 32000 },
+      { "name": "2 star", "count": 47000 },
+      { "name": "3 star", "count": 103000 },
+      { "name": "4 star", "count": 596000 },
+      { "name": "5 star", "count": 1222000 }
+    ]
+  },
+  {
+    "image": "https://i.ibb.co.com/WvJKpRHS/Dropbox.webp",
+    "title": "Dropbox: Secure Cloud Storage",
+    "rating": 4.5,
+    "companyName": "Dropbox, Inc.",
+    "id": 19,
+    "description": "Dropbox: Secure Cloud Storage is a file storage and syncing app that helps users keep documents, photos, and work files available across devices. It is particularly useful for people who switch between phone, laptop, and tablet and need their content to stay accessible everywhere. The interface is straightforward, so uploading, organizing, and sharing files feels practical rather than complicated. That makes it a strong productivity tool even though it is centered on storage.\n\nUsers can back up important files, create folders, preview content, and share links with others directly from the app. This makes collaboration and file access much smoother, especially for remote work or client-based workflows. Instead of sending large attachments repeatedly, users can keep content in one place and share access when needed. That saves time and reduces friction in everyday tasks.\n\nThe syncing and cloud-based structure also provide peace of mind. Important materials are less tied to one device, which lowers the risk of losing access when something goes wrong. For students, creators, office workers, and freelancers, this reliability matters a lot because their productivity often depends on file availability.\n\nOverall, Dropbox is ideal for users who want a dependable and easy-to-use cloud storage solution with real productivity value. It helps make files portable, shareable, and better organized. For digital workflows that depend on access and consistency, it remains a highly practical app.",
+    "size": 95,
+    "reviews": "2M",
+    "ratingAvg": 4.5,
+    "downloads": "1B",
+    "ratings": [
+      { "name": "1 star", "count": 41000 },
+      { "name": "2 star", "count": 52000 },
+      { "name": "3 star", "count": 119000 },
+      { "name": "4 star", "count": 614000 },
+      { "name": "5 star", "count": 1174000 }
+    ]
+  },
+  {
+    "image": "https://i.ibb.co.com/r2cbZNdm/Rescue-Time.png",
+    "title": "RescueTime: Screen Time & Focus",
+    "rating": 4.4,
+    "companyName": "RescueTime Team",
+    "id": 20,
+    "description": "RescueTime: Screen Time & Focus is a productivity analytics app that helps users understand how they actually spend time on digital devices. Instead of just guessing whether the day was productive, users can review real reports that show where attention went and which activities consumed the most time. This creates a much clearer view of habits and distractions. For people serious about improving focus, that awareness is incredibly useful.\n\nThe app tracks activity patterns, highlights productivity trends, and helps users identify moments where distraction becomes a problem. It can also support focus sessions and interruption control, depending on the setup. This means the app is not only diagnostic but also supportive in helping users improve behavior. It works especially well for professionals, students, and remote workers who depend heavily on digital environments.\n\nOne of the strongest benefits is self-awareness. Many people underestimate how much time disappears into social scrolling, unnecessary browsing, or constant task switching. By turning those hidden habits into measurable information, the app gives users a chance to adjust routines with more honesty and precision. That makes it different from a standard task manager or timer app.\n\nOverall, RescueTime is ideal for users who want deeper insight into productivity rather than just another checklist. It helps people make better decisions about focus, time use, and digital behavior. For anyone trying to work smarter and become more intentional with screen time, it offers a clear and valuable perspective.",
+    "size": 27,
+    "reviews": "8K",
+    "ratingAvg": 4.4,
+    "downloads": "500K",
+    "ratings": [
+      { "name": "1 star", "count": 260 },
+      { "name": "2 star", "count": 380 },
+      { "name": "3 star", "count": 910 },
+      { "name": "4 star", "count": 2410 },
+      { "name": "5 star", "count": 4040 }
+    ]
+  }
+]
