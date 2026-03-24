@@ -1,30 +1,53 @@
-import { useState } from "react";
+import { useEffect, useState } from "react";
 import { FaStar } from "react-icons/fa";
 import { FiDownload } from "react-icons/fi";
 import { MdReviews } from "react-icons/md";
 import { useLoaderData, useParams } from "react-router";
-
+import { toast } from 'react-toastify';
 import { Bar, BarChart, CartesianGrid, Tooltip, XAxis, YAxis } from "recharts";
+import { addToStoredDB, getStoredApp } from "../../utility/localStorage";
+
 
 const AppDetails = () => {
   const appsData = useLoaderData();
   const { id } = useParams();
   const [installed, setInstalled] = useState(false);
+  const [apps, setApps] =useState([])
 
   const appId = parseInt(id);
   const appDetails = appsData.find((app) => app.id === appId);
 
-  console.log(id, appsData);
-  // console.log(appsData)
+  // console.log(id, appsData);
+
+
+  useEffect(()=>{
+    const storedAppIds = getStoredApp();
+    // console.log(storedAppIds, appsData)
+
+    const storedApps = [];
+
+    for(const id of storedAppIds){
+      console.log(id);
+      const singleAppsData = appsData?.find(app => app.id === id);
+      // console.log(appsData)
+      if(singleAppsData){
+        storedApps.push(singleAppsData);
+      }
+    }
+
+    setApps(storedApps)
+
+  },[appsData])
+  
 
   const handleInstall = (id) => {
     // Implement installation logic here
     console.log(id)
     setInstalled(true);
-    alert(`Installing ${appDetails.title}...`);
+    toast(`Installing ${appDetails.title}...`);
+    addToStoredDB(id);
 
   }
-
 
   return (
     <div className="py-16">
@@ -78,7 +101,7 @@ const AppDetails = () => {
                 </div>
               </div>
               <div className="card-actions justify-start mt-5">
-                <button onClick={() => handleInstall(appDetails.id)} className={`btn btn-primary ${installed ? "btn-disabled" : ""} btn btn-xs sm:btn-sm md:btn-md lg:btn-lg xl:btn-xl bg-[#632ee3] border-none hover:bg-[#632ee3]/90 text-white`}>
+                <button onClick={() => handleInstall(id)} className={`btn btn-primary ${installed ? "btn-disabled" : ""} btn btn-xs sm:btn-sm md:btn-md lg:btn-lg xl:btn-xl bg-[#632ee3] border-none hover:bg-[#632ee3]/90 text-white`}>
                   {installed ? "Installed" : "Install Now"} ( {appDetails.size}MB )
                 </button>
               </div>
@@ -88,7 +111,7 @@ const AppDetails = () => {
             layout="vertical"
             style={{
               width: "100%",
-              maxHeight: "60vh",
+              maxHeight: "50vh",
               aspectRatio: 1.618,
             }}
             responsive

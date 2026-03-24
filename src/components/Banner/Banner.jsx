@@ -10,7 +10,7 @@ const Banner = () => {
     <div className="hero">
       <div className="hero-content text-center flex flex-wrap">
         <div className="">
-          <h1 className="lg:text-6xl md:text-5xl text-3xl font-black lg:w-xl md:w-lg mx-auto mt-15">
+          <h1 className="lg:text-7xl md:text-5xl text-5xl font-black lg:w-2xl md:w-lg mx-auto mt-15">
             We Build{" "}
             <span className="bg-gradient-to-r from-[#632EE3] to-[#9F62F2] bg-clip-text text-transparent">
               Production
@@ -25,14 +25,14 @@ const Banner = () => {
           <div className="">
             <Link
               to="https://play.google.com/store/games"
-              className="btn btn-md sm:btn-sm md:btn-md lg:btn-lg xl:btn-xl mr-4"
+              className="btn btn-lg sm:btn-sm md:btn-md lg:btn-lg xl:btn-xl mr-4"
             >
               <BiLogoPlayStore className="text-3xl" />
               Google Play
             </Link>
             <Link
               to="https://www.apple.com/app-store/"
-              className="btn btn-md sm:btn-sm md:btn-md lg:btn-lg xl:btn-xl"
+              className="btn btn-lg sm:btn-sm md:btn-md lg:btn-lg xl:btn-xl"
             >
               <FaAppStore className="text-3xl" />
               App Store

@@ -2,10 +2,10 @@ const Counter = () => {
   return (
     <div className=" bg-linear-to-tl to-[#632EE3] from-[#9F62F2]">
       <div className="pt-10 flex flex-col justify-center items-center">
-        <h2 className="text-white font-bold lg:text-4xl md:text-4xl text-2xl text-center ">
+        <h2 className="text-white font-bold lg:text-5xl md:text-4xl text-3xl text-center ">
           Trusted by Millions, Built for You
         </h2>
-        <div className="stats stats-vertical lg:stats-horizontal  text-white py-10">
+        <div className="stats stats-vertical lg:stats-horizontal text-white py-10">
           <div className="stat space-y-3">
             <div className="stat-figure">
               <svg

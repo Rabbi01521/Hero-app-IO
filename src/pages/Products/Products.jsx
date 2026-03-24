@@ -25,7 +25,7 @@ const Products = ({ appsData }) => {
               (
                 <Link to={`/apps/${app.id}`} key={app.id}>
                   <div
-                    className="card card shadow-lg cursor-pointer  bg-white hover:bg-base-200 hover:-translate-y-2 transition-all duration-200 gap-4"
+                    className="card shadow-lg cursor-pointer  bg-white hover:bg-base-200 hover:-translate-y-2 transition-all duration-200 gap-4"
                   >
                     <div className="card-body">
                       <div className="lg:w-full w-2/3 mx-auto">
