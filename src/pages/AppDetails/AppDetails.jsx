@@ -3,51 +3,38 @@ import { FaStar } from "react-icons/fa";
 import { FiDownload } from "react-icons/fi";
 import { MdReviews } from "react-icons/md";
 import { useLoaderData, useParams } from "react-router";
-import { toast } from 'react-toastify';
+import { toast } from "react-toastify";
 import { Bar, BarChart, CartesianGrid, Tooltip, XAxis, YAxis } from "recharts";
 import { addToStoredDB, getStoredApp } from "../../utility/localStorage";
-
 
 const AppDetails = () => {
   const appsData = useLoaderData();
   const { id } = useParams();
-  const [installed, setInstalled] = useState(false);
-  const [apps, setApps] =useState([])
+  // const [apps, setApps] = useState([]);
 
   const appId = parseInt(id);
   const appDetails = appsData.find((app) => app.id === appId);
 
-  // console.log(id, appsData);
+  const [installed, setInstalled] = useState(false);
 
-
-  useEffect(()=>{
+  // ✅ check on page load / refresh
+  useEffect(() => {
     const storedAppIds = getStoredApp();
-    // console.log(storedAppIds, appsData)
 
-    const storedApps = [];
-
-    for(const id of storedAppIds){
-      console.log(id);
-      const singleAppsData = appsData?.find(app => app.id === id);
-      // console.log(appsData)
-      if(singleAppsData){
-        storedApps.push(singleAppsData);
-      }
+    if (storedAppIds.includes(id)) {
+      setInstalled(true);
     }
+  }, [id]);
 
-    setApps(storedApps)
-
-  },[appsData])
-  
+  // console.log(apps);
 
   const handleInstall = (id) => {
-    // Implement installation logic here
-    console.log(id)
+    if (installed) return; // prevent duplicate click
+
     setInstalled(true);
     toast(`Installing ${appDetails.title}...`);
     addToStoredDB(id);
-
-  }
+  };
 
   return (
     <div className="py-16">
@@ -101,8 +88,16 @@ const AppDetails = () => {
                 </div>
               </div>
               <div className="card-actions justify-start mt-5">
-                <button onClick={() => handleInstall(id)} className={`btn btn-primary ${installed ? "btn-disabled" : ""} btn btn-xs sm:btn-sm md:btn-md lg:btn-lg xl:btn-xl bg-[#632ee3] border-none hover:bg-[#632ee3]/90 text-white`}>
-                  {installed ? "Installed" : "Install Now"} ( {appDetails.size}MB )
+                <button
+                  onClick={() => handleInstall(id)}
+                  disabled={installed}
+                  className={`btn btn-primary btn-xs sm:btn-sm md:btn-md lg:btn-lg xl:btn-xl 
+    bg-[#632ee3] border-none hover:bg-[#632ee3]/90 text-white
+    ${installed ? "opacity-60 cursor-not-allowed" : ""}
+  `}
+                >
+                  {installed ? "Installed" : "Install Now"} ({appDetails.size}{" "}
+                  MB)
                 </button>
               </div>
             </div>

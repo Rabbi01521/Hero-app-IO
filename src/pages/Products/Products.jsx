@@ -8,6 +8,7 @@ const Products = ({ appsData }) => {
   return (
     <div className="py-16">
       <div className="max-w-[1200px] mx-auto">
+        
         <div className="lg:w-lg mx-auto mb-10">
           <h3 className="flex items-center justify-center gap-3 text-4xl font-bold">
             Trending Apps <FaArrowTrendUp />
