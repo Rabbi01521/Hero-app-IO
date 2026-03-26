@@ -53,7 +53,7 @@ const Installation = () => {
   };
 
   const handleUninstall = (id) => {
-    console.log(id);
+    // console.log(id);
     removeFromLocalStorage(id);
 
     const storedIds = getStoredApp();

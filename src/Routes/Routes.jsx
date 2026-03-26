@@ -9,31 +9,28 @@ import Root from "../pages/Root/Root";
 export const router = createBrowserRouter([
   {
     path: "/",
-    Component: Root,
+    element: <Root />, // ✅ use element
     errorElement: <ErrorPage />,
     children: [
       {
         index: true,
-        path: "/",
         loader: () => fetch("/appsData.json"),
-        // loader: () => fetch("https://hero-apps.pages.dev/apps.json"),
-        Component: Home,
+        element: <Home />,
       },
       {
         path: "/apps",
         loader: () => fetch("/appsData.json"),
-        Component: AllApps,
+        element: <AllApps />,
       },
       {
         path: "/apps/:id",
         loader: () => fetch("/appsData.json"),
-        Component: AppDetails,
+        element: <AppDetails />,
       },
-
       {
         path: "/installations",
         loader: () => fetch("/appsData.json"),
-        Component: Installation,
+        element: <Installation />,
       },
     ],
   },

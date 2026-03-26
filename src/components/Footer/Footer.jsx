@@ -9,14 +9,14 @@ const Footer = () => {
         <div className="lg:grid lg:grid-cols-2">
           <div className="">
             <h1 className="mb-3 text-xl lg:text-xl flex items-center">
-              <img className="w-12 mr-3" src={footerImg} alt="" /> Hero---IO
+              <img className="w-12 mr-3" src={footerImg} alt="" /> <span className="font-black">Hero---IO</span>
             </h1>
             <p className="text-xs md:pr-0 lg:pr-50">
               A modern app marketplace designed to help users explore, install, and manage applications effortlessly. Built with a focus on performance, simplicity, and a seamless user experience across all devices.
             </p>
           </div>
 
-          <div className="lg:flex md:grid md:grid-cols-2 md:gap-5">
+          <div className="lg:flex lg:justify-between md:grid md:grid-cols-2 md:gap-5">
             <div className="lg:px-5 mt-5 lg:mt-0">
               <h2 className="mb-3 text-xl font-bold lg:text-xl">Company</h2>
               <ul>
@@ -81,7 +81,7 @@ const Footer = () => {
               <h2 className="mb-3 text-xl font-bold lg:text-xl">
                 Social Links
               </h2>
-              <ul className="flex justify-around items-center">
+              <ul className="flex lg:justify-around lg:items-center gap-4">
                 <li>
                   <a className="text-lg items-center" href="#">
                     <FaTwitter />

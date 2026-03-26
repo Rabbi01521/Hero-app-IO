@@ -3,7 +3,7 @@ import { Link } from "react-router";
 import appotFound from "../../assets/App-Error.png";
 
 const Products = ({ appsData }) => {
-  console.log(appsData);
+  // console.log(appsData);
 
   return (
     <div className="py-16">
@@ -22,7 +22,7 @@ const Products = ({ appsData }) => {
         <div className="grid lg:grid-cols-4 md:grid-cols-3 gap-5">
           {appsData?.slice(0, 8).map(
             (app) => (
-              console.log(app),
+              // console.log(app),
               (
                 <Link to={`/apps/${app.id}`} key={app.id}>
                   <div

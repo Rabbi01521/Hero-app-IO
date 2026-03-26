@@ -25,7 +25,7 @@ const AllApps = () => {
 
     setFilteredApps(result);
 
-    console.log(filteredApps);
+    // console.log(filteredApps);
   };
 
   return (
