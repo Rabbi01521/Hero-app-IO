@@ -32,7 +32,10 @@ const AppDetails = () => {
     if (installed) return; // prevent duplicate click
 
     setInstalled(true);
-    toast(`Installing ${appDetails.title}...`);
+    toast(`Installing ${appDetails.title} perfectly`, {
+      position: "bottom-right",
+      autoClose: 2000,
+    });
     addToStoredDB(id);
   };
 

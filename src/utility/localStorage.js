@@ -29,9 +29,10 @@ const addToStoredDB = (id) => {
 };
 
 
-const removeFromLocalStorage = id =>{
+const removeFromLocalStorage = id => {
     const StoredApps = getStoredApp();
-    const reaminingApps = StoredApps.filter(storedApp => storedApp !==id);
+    console.log(id)
+    const reaminingApps = StoredApps.filter(storedApp => parseInt(storedApp) !==id);
     saveAppToLocalStorage(reaminingApps);
 }
 

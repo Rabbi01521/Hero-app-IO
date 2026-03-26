@@ -3,7 +3,7 @@ import notFound from "../../assets/App-Error.png";
 
 const AppNotFound = () => {
   return (
-    <div className="hero  min-h-screen">
+    <div className="hero min-h-screen">
       <div className="hero-content text-center">
         <div className="max-w-md">
           <img src={notFound} alt="" />
