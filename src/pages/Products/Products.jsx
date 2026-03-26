@@ -1,6 +1,7 @@
 import { FaArrowTrendUp } from "react-icons/fa6";
 import { Link } from "react-router";
 import appotFound from "../../assets/App-Error.png";
+import Loader from "../../components/Loader/Loader";
 
 const Products = ({ appsData }) => {
   // console.log(appsData);
@@ -8,26 +9,23 @@ const Products = ({ appsData }) => {
   return (
     <div className="py-16">
       <div className="max-w-[1200px] mx-auto">
-        
         <div className="lg:w-lg mx-auto mb-10">
           <h3 className="flex items-center justify-center gap-3 text-4xl font-bold">
-            Trending Apps <FaArrowTrendUp />
+            <span className="font-black">Trending Apps</span> <FaArrowTrendUp className="text-[#632EE3]" />
           </h3>
           <p className="text-center py-2">
             Explore All Trending Apps on the Market developed by us
           </p>
         </div>
       </div>
-      <div className="max-w-[1200px] mx-auto">
-        <div className="grid lg:grid-cols-4 md:grid-cols-3 gap-5">
-          {appsData?.slice(0, 8).map(
-            (app) => (
-              // console.log(app),
-              (
+      {appsData.length > 0 ? (
+        <div>
+          <div className="max-w-[1200px] mx-auto">
+            <div className="grid lg:grid-cols-4 md:grid-cols-3 gap-5">
+              {appsData?.slice(0, 8).map((app) => (
+                // console.log(app),
                 <Link to={`/apps/${app.id}`} key={app.id}>
-                  <div
-                    className="card shadow-lg cursor-pointer  bg-white hover:bg-base-200 hover:-translate-y-2 transition-all duration-200 gap-4"
-                  >
+                  <div className="card shadow-lg cursor-pointer  bg-white hover:bg-base-200 hover:-translate-y-2 transition-all duration-200 gap-4">
                     <div className="card-body">
                       <div className="lg:w-full w-2/3 mx-auto">
                         <img
@@ -76,19 +74,21 @@ const Products = ({ appsData }) => {
                     </div>
                   </div>
                 </Link>
-              )
-            ),
-          )}
+              ))}
+            </div>
+          </div>
+          <div className="text-center mt-10">
+            <Link
+              className="btn btn-wide  text-white hover:shadow-xl bg-gradient-to-tl to-[#632EE3] from-[#9F62F2] "
+              to="/apps"
+            >
+              Explore All Apps
+            </Link>
+          </div>
         </div>
-      </div>
-      <div className="text-center mt-10">
-        <Link
-          className="btn btn-wide  text-white hover:shadow-xl bg-gradient-to-tl to-[#632EE3] from-[#9F62F2] "
-          to="/apps"
-        >
-          Explore All Apps
-        </Link>
-      </div>
+      ) : (
+        <Loader />
+      )}
     </div>
   );
 };

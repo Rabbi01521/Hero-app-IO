@@ -9,7 +9,7 @@ import Root from "../pages/Root/Root";
 export const router = createBrowserRouter([
   {
     path: "/",
-    element: <Root />, // ✅ use element
+    element: <Root />, 
     errorElement: <ErrorPage />,
     children: [
       {

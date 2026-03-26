@@ -32,7 +32,7 @@ const AppDetails = () => {
     if (installed) return; // prevent duplicate click
 
     setInstalled(true);
-    toast(`Installing ${appDetails.title} perfectly`, {
+    toast(`Yahooo!! ${appDetails.title} installed successfully`, {
       position: "bottom-right",
       autoClose: 2000,
     });
@@ -53,10 +53,10 @@ const AppDetails = () => {
             </figure>
             <div className="card-body">
               <div className="space-y-3 border-b-2 border-[#632ee3] pb-5">
-                <h2 className="card-title text-[#632ee3] text-4xl my-4">
+                <h2 className="card-title text-[#632ee3] lg:text-4xl text-2xl my-4">
                   {appDetails.title}
                 </h2>
-                <p className="font-medium text-xl">
+                <p className="font-medium lg:text-xl text-xs">
                   Developed By:{" "}
                   <span className="text-[#632ee3]">
                     {appDetails.companyName}
@@ -64,8 +64,8 @@ const AppDetails = () => {
                 </p>
               </div>
               <div className="">
-                <div className="stats grid lg:grid-cols-3 md:grid-cols-2 gap-5">
-                  <div className="stat stats-horizontal">
+                <div className="stats lg:grid md:grid lg:grid-cols-3 md:grid-cols-3 flex flex-col gap-5">
+                  <div className="stat lg:stats-horizontal">
                     <div className="stat-figure text-secondary">
                       <FiDownload className="text-4xl text-[#632ee3]" />
                     </div>
@@ -90,56 +90,61 @@ const AppDetails = () => {
                   </div>
                 </div>
               </div>
-              <div className="card-actions justify-start mt-5">
+              <div className="card-actions lg:justify-start justify-center mt-5">
                 <button
                   onClick={() => handleInstall(id)}
                   disabled={installed}
-                  className={`btn btn-primary btn-xs sm:btn-sm md:btn-md lg:btn-lg xl:btn-xl 
+                  className={`btn btn-primary btn-lg sm:btn-lg md:btn-md lg:btn-lg xl:btn-xl 
     bg-[#632ee3] border-none hover:bg-[#632ee3]/90 text-white
     ${installed ? "opacity-60 cursor-not-allowed" : ""}
   `}
                 >
-                  {installed ? "Installed" : "Install Now"} ({appDetails.size}{" "}
-                  MB)
+                  {installed ? "Installed" : "Install Now"} {" "}
+                  {installed ? "" : `({appDetails.size} MB)` }
                 </button>
               </div>
             </div>
           </div>
-          <BarChart
-            layout="vertical"
-            style={{
-              width: "100%",
-              maxHeight: "50vh",
-              aspectRatio: 1.618,
-            }}
-            responsive
-            data={[...appDetails.ratings].reverse()}
-            margin={{ bottom: 20 }}
-          >
-            <CartesianGrid strokeDasharray="5 5" />
-            <Tooltip shared={true} wrapperStyle={{ backgroundColor: "#ccc" }} />
-            <XAxis
-              type="number"
-              dataKey="count"
-              height={50}
-              stroke="#632ee3"
-              label={{ value: "Count", position: "insideBottomRight" }}
-            />
-            <YAxis
-              type="category"
-              dataKey="name"
-              width="auto"
-              stroke="#632ee3"
-              label={{
-                value: "Rating",
-                angle: -90,
-                position: "insideTopLeft",
-                textAnchor: "end",
+          <div className="md:w-3/4 w-11/12 mx-auto">
+            <BarChart
+              layout="vertical"
+              style={{
+                width: "100%",
+                maxHeight: "50vh",
+                aspectRatio: 1.618,
               }}
-            />
-            <Bar dataKey="count" fill="#632ee3" barSize={30} />
-          </BarChart>
-          <div className="md:w-[90%] mx-auto">
+              responsive
+              data={[...appDetails.ratings].reverse()}
+              margin={{ bottom: 20 }}
+            >
+              <CartesianGrid strokeDasharray="5 5" />
+              <Tooltip
+                shared={true}
+                wrapperStyle={{ backgroundColor: "#ccc" }}
+              />
+              <XAxis
+                type="number"
+                dataKey="count"
+                height={50}
+                stroke="#632ee3"
+                label={{ value: "Count", position: "insideBottomRight" }}
+              />
+              <YAxis
+                type="category"
+                dataKey="name"
+                width="auto"
+                stroke="#632ee3"
+                label={{
+                  value: "Rating",
+                  angle: -90,
+                  position: "insideTopLeft",
+                  textAnchor: "end",
+                }}
+              />
+              <Bar dataKey="count" fill="#632ee3" barSize={30} />
+            </BarChart>
+          </div>
+          <div className="md:w-11/12 w-10/12 mx-auto">
             <h2 className="text-3xl font-bold text-[#632ee3] my-5">
               Description
             </h2>

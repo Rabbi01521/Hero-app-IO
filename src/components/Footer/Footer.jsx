@@ -1,5 +1,6 @@
 import { FaEnvelope, FaFacebookSquare, FaLinkedin } from "react-icons/fa";
 import { FaTwitter } from "react-icons/fa6";
+import { Link } from "react-router";
 import footerImg from "../../assets/logo.png";
 
 const Footer = () => {
@@ -21,19 +22,19 @@ const Footer = () => {
               <h2 className="mb-3 text-xl font-bold lg:text-xl">Company</h2>
               <ul>
                 <li>
-                  <a className="text-xs" href="#">
+                  <Link className="text-xs" to="/">
                     About Us
-                  </a>
+                  </Link>
                 </li>
                 <li>
-                  <a className="text-xs " href="#">
+                  <Link className="text-xs " to="/">
                     Our Mission
-                  </a>
+                  </Link>
                 </li>
                 <li>
-                  <a className="text-xs " href="#">
+                  <Link className="text-xs " to="/">
                     Contact Saled
-                  </a>
+                  </Link>
                 </li>
               </ul>
             </div>
@@ -41,19 +42,19 @@ const Footer = () => {
               <h2 className="mb-3 text-xl font-bold lg:text-xl">Services</h2>
               <ul>
                 <li>
-                  <a className="text-xs " href="#">
+                  <Link className="text-xs " to="/">
                     Products & Services
-                  </a>
+                  </Link>
                 </li>
                 <li>
-                  <a className="text-xs " href="#">
+                  <Link className="text-xs " to="/">
                     Customer Stories
-                  </a>
+                  </Link>
                 </li>
                 <li>
-                  <a className="text-xs " href="#">
+                  <Link className="text-xs " to="/">
                     Download Apps
-                  </a>
+                  </Link>
                 </li>
               </ul>
             </div>
@@ -61,19 +62,19 @@ const Footer = () => {
               <h2 className="mb-3 text-xl font-bold lg:text-xl">Information</h2>
               <ul>
                 <li>
-                  <a className="text-xs" href="#">
+                  <Link className="text-xs" to="/">
                     Privacy Policy
-                  </a>
+                  </Link>
                 </li>
                 <li>
-                  <a className="text-xs" href="#">
+                  <Link className="text-xs" to="/">
                     Terms & Conditions
-                  </a>
+                  </Link>
                 </li>
                 <li>
-                  <a className="text-xs" href="#">
+                  <Link className="text-xs" to="/">
                     Join Us
-                  </a>
+                  </Link>
                 </li>
               </ul>
             </div>
@@ -83,24 +84,24 @@ const Footer = () => {
               </h2>
               <ul className="flex lg:justify-around lg:items-center gap-4">
                 <li>
-                  <a className="text-lg items-center" href="#">
+                  <Link className="text-lg items-center" to="/">
                     <FaTwitter />
-                  </a>
+                  </Link>
                 </li>
                 <li>
-                  <a className="text-lg" href="#">
+                  <Link className="text-lg" to="/">
                     <FaLinkedin />
-                  </a>
+                  </Link>
                 </li>
                 <li>
-                  <a className="text-lg" href="#">
+                  <Link className="text-lg" to="/">
                     <FaFacebookSquare />
-                  </a>
+                  </Link>
                 </li>
                 <li>
-                  <a className="text-lg" href="#">
+                  <Link className="text-lg" to="/">
                     <FaEnvelope />
-                  </a>
+                  </Link>
                 </li>
               </ul>
             </div>

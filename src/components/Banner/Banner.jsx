@@ -1,7 +1,6 @@
 import { BiLogoPlayStore } from "react-icons/bi";
 import { FaAppStore } from "react-icons/fa";
 
-import bannerImg from "../../assets/hero.png";
 
 import { Link } from "react-router";
 
@@ -17,7 +16,7 @@ const Banner = () => {
             </span>{" "}
             <span>Apps</span>
           </h1>
-          <p className="italic lg:max-w-9/12 md:max-w-9/12 mx-auto py-6">
+          <p className="italic lg:max-w-9/12 md:max-w-9/12 mx-auto py-6 text-[12px]">
             At <span className="font-bold">HERO.IO</span>, we craft innovative apps designed to make everyday life
             simpler, smarter, and more exciting.Our goal is to turn your ideas
             into digital experiences that truly make an impact.
@@ -40,7 +39,7 @@ const Banner = () => {
           </div>
         </div>
         <div className="pt-10 lg:-mb-4 md:-mb-4 -mb-4">
-            <img className="" src={bannerImg} alt="" />
+            <img className="" src="https://i.ibb.co.com/pj2rmqJW/hero.png" alt="" />
         </div>
       </div>
     </div>

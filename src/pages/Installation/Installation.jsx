@@ -26,6 +26,7 @@ const Installation = () => {
   const convertDownloads = (str) => {
     const num = parseFloat(str);
 
+    if (str.includes("B")) return num * 1_000_000_000;
     if (str.includes("M")) return num * 1_000_000;
     if (str.includes("K")) return num * 1_000;
 
@@ -75,7 +76,7 @@ const Installation = () => {
         <div className="">
           <div className="lg:w-lg mx-auto mb-10">
             <h3 className="flex items-center justify-center gap-3 text-4xl font-bold">
-              Your Installed Apps <MdInstallDesktop />
+              Your Installed Apps <MdInstallDesktop className="text-[#632EE3]" />
             </h3>
             <p className="text-center py-2 ">
               Explore All Trending Apps on the Market developed by us
@@ -85,13 +86,13 @@ const Installation = () => {
         <div className="">
           <div className="flex justify-between items-center my-5">
             <div>
-              <h3 className="text-lg underline font-medium">
+              <h3 className="text-lg font-bold">
                 ({installAppList.length}) App Founds
               </h3>
             </div>
             <div className="">
               <select defaultValue="Sort By" className="select select-neutral">
-                <option disabled={false}>
+                <option disabled={true}>
                   Sort By Size : {sort ? sort : ""}
                 </option>
                 <option onClick={() => handleSortByPage("lowHigh")}>

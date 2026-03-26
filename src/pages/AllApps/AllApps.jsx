@@ -41,9 +41,9 @@ const AllApps = () => {
         </div>
       </div>
       <div className="max-w-[1200px] mx-auto">
-        <div className="flex justify-between items-center my-5">
+        <div className="lg:flex lg:justify-between lg:items-center text-center my-5">
           <div>
-            <h3>({filteredApps.length}) App Founds</h3>
+            <h3 className="text-lg font-bold md:mb-3 mb-4">({filteredApps.length}) App Founds</h3>
           </div>
           <div>
             <label className="input">
@@ -90,8 +90,8 @@ const AllApps = () => {
                     <ul className="mt-6 flex flex-col gap-2 text-md text-left">
                       <h2 className="font-bold text-center ">{app.title}</h2>
                     </ul>
-                    <div class="flex justify-between mt-5">
-                      <div class="badge badge-soft badge-success ">
+                    <div className="flex justify-between mt-5">
+                      <div className="badge badge-soft badge-success ">
                         <svg
                           stroke="currentColor"
                           fill="currentColor"
@@ -103,13 +103,13 @@ const AllApps = () => {
                         >
                           <path
                             fill="none"
-                            stroke-width="2"
+                            strokeWidth="2"
                             d="M1,17 L1,23 L23,23 L23,17 M12,2 L12,19 M5,12 L12,19 L19,12"
                           ></path>
                         </svg>{" "}
                         {app.downloads}
                       </div>
-                      <div class="badge badge-soft badge-secondary">
+                      <div className="badge badge-soft badge-secondary">
                         <svg
                           stroke="currentColor"
                           fill="currentColor"
