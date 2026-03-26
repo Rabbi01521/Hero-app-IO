@@ -100,7 +100,7 @@ const AppDetails = () => {
   `}
                 >
                   {installed ? "Installed" : "Install Now"} {" "}
-                  {installed ? "" : `({appDetails.size} MB)` }
+                  {installed ? "" : `(${appDetails.size} MB)` }
                 </button>
               </div>
             </div>
